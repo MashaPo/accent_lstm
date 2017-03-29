@@ -83,7 +83,6 @@ json_string = model.to_json()
 with open("model.json", "w") as text_file:
     text_file.write(json_string)
 
-
 #model.save('weights-improvement-02-0.88.h5')
 
 
